@@ -1,0 +1,25 @@
+'
+' Use mikroE Timer Calculator to generate proper timer configuration
+' and timer ISR.
+'
+' https://www.mikroe.com/timer-calculator
+'
+module Click_NanoGPS_timer
+
+include Click_NanoGPS_types
+    
+sub procedure nanogps_configTimer() 
+
+implements
+
+sub procedure nanogps_configTimer() 
+
+end sub
+
+sub procedure Timer_interrupt() 
+
+    nanogps_tick() 
+
+end sub
+
+end.
